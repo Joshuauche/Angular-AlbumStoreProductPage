@@ -1,9 +1,9 @@
 <div class="row tracklisting">
   <ul>
-    <li *ngFor='let track of albulmInfo?.album.tracks'>
+    <li *ngFor='let track of albumInfo?.album.tracks'>
       <div class="col-sm-5">
         <span class="track-number">{{track.TrackNumber}}</span>
-        <span class="track-name">{{track.RrackName}}</span>
+        <span class="track-name">{{track.trackName}}</span>
       </div>
       <div class="col-sm-3 text-right">
         <span class="track-time">{{track.TrackLength}}</span>
