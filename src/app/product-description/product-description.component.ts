@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { from } from 'rxjs/observable/from';
 
 import { ProductService } from '../product.service';
 
@@ -15,7 +14,7 @@ import { Album } from '../album'
 export class ProductDescriptionComponent implements OnInit {
 
   albumInfo: Album;
-  
+
   constructor(private _productService: ProductService) { }
 
   ngOnInit() {
